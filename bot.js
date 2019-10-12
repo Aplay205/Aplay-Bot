@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'hello') {
-    	message.send('Привет всем! Этот бот находится в разработке!!!');
+    	message.reply('Привет всем! Этот бот находится в разработке!!!');
   	}
 
 });

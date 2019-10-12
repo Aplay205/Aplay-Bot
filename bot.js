@@ -10,6 +10,14 @@ client.on('message', message => {
     	message.reply('pong');
   	}
 });
+});
+
+client.on('message', message => {
+    if (message.content === 'hi') {
+    	message.reply('Всем привет');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
